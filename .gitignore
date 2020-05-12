@@ -1,0 +1,7 @@
+/build/js/node_modules/
+/.gradle/
+/.idea/
+/build/
+local.properties
+reactt.iml
+/.gtm/
