@@ -42,11 +42,11 @@ dependencies {
     implementation(kotlin("stdlib-js"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:0.20.0")
 
-    implementation("org.jetbrains:kotlin-react:16.13.0-pre.94-kotlin-1.3.70")
-    implementation("org.jetbrains:kotlin-react-dom:16.13.0-pre.94-kotlin-1.3.70")
+    implementation("org.jetbrains:kotlin-react:16.13.1-pre.104-kotlin-1.3.72") // https://bintray.com/kotlin/kotlin-js-wrappers/kotlin-react
+    implementation("org.jetbrains:kotlin-react-dom:16.13.1-pre.104-kotlin-1.3.72")
     implementation(npm("react", "16.13.1"))
     implementation(npm("react-dom", "16.13.1"))
-    implementation("org.jetbrains:kotlin-styled:1.0.0-pre.94-kotlin-1.3.70")
+    implementation("org.jetbrains:kotlin-styled:1.0.0-pre.104-kotlin-1.3.72") // https://bintray.com/kotlin/kotlin-js-wrappers/kotlin-styled
     implementation(npm("styled-components"))
     implementation(npm("inline-style-prefixer"))
 
