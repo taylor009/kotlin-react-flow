@@ -16,17 +16,13 @@ buildscript {
         classpath(kotlin("serialization", version = "1.3.72"))
         classpath(kotlin("noarg", version = "1.3.72"))
         classpath("com.github.jengelman.gradle.plugins:shadow:5.2.0") // https://mvnrepository.com/artifact/com.github.jengelman.gradle.plugins/shadow
-//        classpath("org.jetbrains.intellij.plugins:gradle-intellij-plugin:${affair.Ver.Jetbrains.intellijPlugin}") //https://github.com/JetBrains/gradle-intellij-plugin
         classpath("com.android.tools.build:gradle:4.1.0-alpha09") //https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
-//        classpath("com.bmuschko:gradle-tomcat-plugin:2.5")
-//        classpath("org.openjfx:javafx-plugin:0.0.8")
     }
 }
 
 plugins {
     id("org.jetbrains.kotlin.js") version "1.3.72"
     kotlin("plugin.serialization") version "1.3.72"
-
 }
 
 group = "org.example"
